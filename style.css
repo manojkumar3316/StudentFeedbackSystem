@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(231, 171, 68);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+input,
+textarea {
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #f7d8d8;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    background-color: #f0ed3b;
+    cursor: pointer;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.viewtable {
+    background-color: rgb(157, 149, 231);
+}
+
+.vth {
+    color: black;
+}
+
+th,
+td {
+    border: 1px solid#ccc;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
